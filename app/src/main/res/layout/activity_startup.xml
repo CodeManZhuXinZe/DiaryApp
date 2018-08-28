@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="800dp"
+        android:layout_height="800dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/startup_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/copyright"
+        android:layout_centerHorizontal="true"
+        android:text="CodeMan工作室提供技术支持"
+        android:textColor="#737373"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="&#169; 印象手帐"
+        android:textColor="#737373"
+        android:textSize="10sp" />
+
+</RelativeLayout>

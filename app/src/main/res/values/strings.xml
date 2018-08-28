@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">印象手帐</string>
+    <string name="title_diary">日记</string>
+    <string name="title_tourists">过客</string>
+    <string name="title_my">我的</string>
+    <string name="tabLayout_new">   最新   </string>
+    <string name="tabLayout_hot">   最热   </string>
+    <string name="tabLayout_my">   我的   </string>
+</resources>

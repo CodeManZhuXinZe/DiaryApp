@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.huaxiaobin.diaryapp">
+
+    <application
+        android:name=".application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity" />
+        <activity
+            android:name=".activity.StartupPageActivity"
+            android:theme="@style/Animation_StartupActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.TouristsDetailActivity"
+            android:theme="@style/Animation_RightInRightOutActivityNoActionBar" />
+        <activity
+            android:name=".activity.ViewDiaryActivity"
+            android:theme="@style/Animation_RightInRightOutActivity" />
+        <activity
+            android:name=".activity.EditDiaryActivity"
+            android:theme="@style/Animation_RightInRightOutActivity" />
+        <activity
+            android:name=".activity.ModificationUserInfoActivity"
+            android:theme="@style/Animation_RightInRightOutActivity" />
+        <activity
+            android:name=".activity.AboutActivity"
+            android:theme="@style/Animation_RightInRightOutActivity" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:theme="@style/LoginActivity" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:theme="@style/Animation_RegisterActivity" />
+        <activity
+            android:name=".activity.CalendarActivity"
+            android:theme="@style/Animation_RightInRightOutActivity" />
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+</manifest>

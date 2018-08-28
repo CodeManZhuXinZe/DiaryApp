@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomCalendar">
+        <attr name="mBgColorDate" format="color" />                 <!--背景色，只是方便调试测量时使用，正式试用时可配置透明色-->
+        <attr name="mTextColorDate" format="color" />               <!--标题字体颜色-->
+        <attr name="mTextColorFinish" format="color" />             <!--任务完成字体颜色-->
+        <attr name="mSelectWeekTextColor" format="color" />        <!--选中星期字体颜色-->
+        <attr name="mSelectTextColor" format="color" />             <!--选中日期字体颜色-->
+        <attr name="mSelectBg" format="color" />                     <!--选中日期背景-->
+        <attr name="mCurrentBg" format="color" />                    <!--当天日期背景-->
+
+        <attr name="mMonthRowL" format="reference" />               <!--月份箭头-->
+        <attr name="mMonthRowR" format="reference" />               <!--月份箭头-->
+
+        <attr name="mMonthRowSpac" format="dimension" />
+        <attr name="mMonthSpac" format="dimension" />               <!--标题月份上下间隔-->
+        <attr name="mLineSpac" format="dimension" />                <!--日期行间距-->
+        <attr name="mTextSpac" format="dimension" />                <!--日期和字体上下间距-->
+
+        <attr name="mTextSizeMonth" format="dimension" />           <!--标题字体大小-->
+        <attr name="mTextSizeWeek" format="dimension" />            <!--星期字体大小-->
+        <attr name="mTextSizeDay" format="dimension" />             <!--日期字体大小-->
+        <attr name="mSelectRadius" format="dimension" />            <!--选中日期背景半径-->
+        <attr name="mCurrentBgStrokeWidth" format="dimension" />   <!--当天日期背景虚线宽度-->
+        <attr name="mCurrentBgDashPath" format="reference" />      <!--当天日期背景虚线数组-->
+    </declare-styleable>
+</resources>

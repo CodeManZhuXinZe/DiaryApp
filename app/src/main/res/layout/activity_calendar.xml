@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:calendar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.huaxiaobin.diaryapp.utils.CustomCalendar
+            android:id="@+id/cal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            calendar:mCurrentBg="#6E6E6E"
+            calendar:mCurrentBgStrokeWidth="1.5dip"
+            calendar:mLineSpac="20dip"
+
+            calendar:mMonthRowL="@drawable/custom_calendar_row_left"
+            calendar:mMonthRowR="@drawable/custom_calendar_row_right"
+            calendar:mMonthRowSpac="50dip"
+
+            calendar:mMonthSpac="20dip"
+
+            calendar:mSelectBg="#fe7f5c"
+            calendar:mSelectRadius="15dip"
+            calendar:mSelectTextColor="#ffffff"
+
+            calendar:mSelectWeekTextColor="#f67633"
+
+            calendar:mTextColorDate="#4b4b4b"
+            calendar:mTextColorFinish="#60ba8d"
+            calendar:mTextSizeDay="17sp"
+            calendar:mTextSizeMonth="25sp"
+
+            calendar:mTextSizeWeek="17sp"
+            calendar:mTextSpac="15dip" />
+    </LinearLayout>
+
+</ScrollView>

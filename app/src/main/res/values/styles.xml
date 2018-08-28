@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RightInRightOutAnim" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="Animation_RightInRightOutActivityNoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/RightInRightOutAnim</item>
+        <item name="android:statusBarColor">@color/green_theme</item>
+    </style>
+
+    <style name="Animation_RightInRightOutActivity" parent="AppTheme">
+        <item name="android:windowAnimationStyle">@style/RightInRightOutAnim</item>
+        <item name="android:statusBarColor">@color/green_theme</item>
+    </style>
+
+    <style name="Animation_StartupActivity" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:statusBarColor">@android:color/white</item>
+    </style>
+
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialogWindowAnim" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit_anim</item>
+    </style>
+
+    <style name="BottomDialog.Animation" parent="Animation.AppCompat.Dialog">
+        <item name="android:windowEnterAnimation">@anim/bottom_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/bottom_dialog_out</item>
+    </style>
+
+    <style name="BottomDialog" parent="@style/Base.V7.Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="LoginActivity" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:statusBarColor">@color/green_theme</item>
+    </style>
+
+    <style name="Animation_RegisterActivity" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:statusBarColor">@color/green_theme</item>
+        <item name="android:windowAnimationStyle">@style/RightInRightOutAnim</item>
+    </style>
+
+</resources>

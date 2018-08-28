@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#f0f4f7"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:paddingLeft="5dp">
+
+        <TextView
+            android:id="@+id/diary_week"
+            android:layout_width="58dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:paddingTop="25dp"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/diary_date"
+            android:layout_width="58dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:paddingBottom="25dp"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/item_diary_line" />
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="-3dp"
+        android:paddingTop="5dp"
+        android:src="@mipmap/item_diary_triangle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginRight="10dp"
+        android:background="@mipmap/item_diary_chat_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/diary_content"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingTop="17dp"
+            android:textColor="#7f7f7f"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/diary_time"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="3dp"
+            android:paddingLeft="12dp"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
